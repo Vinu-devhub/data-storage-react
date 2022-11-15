@@ -46,7 +46,7 @@ const Features = () => {
               >
                 {/* bg image */}
                 <div className="hidden xl:flex absolute top-0 right-0 -z-10">
-                  <img src={bgImage} alt="feature image" />
+                  <img src={bgImage} alt="features" />
                 </div>
 
                 {/* icon image */}
@@ -55,7 +55,7 @@ const Features = () => {
                   data-aos="zoom-in-right"
                   data-aos-delay={delay}
                 >
-                  <img src={image} alt="icon image" />
+                  <img src={image} alt="icon" />
                 </div>
                 {/* text */}
                 <div className="max-w-[220px]">
